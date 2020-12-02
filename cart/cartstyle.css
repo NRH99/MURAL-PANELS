@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+.img{
+    width:400px ;height:400px;
+    max-width: 100%;
+    background-color: antiquewhite;
+    background: radial-gradient(white 30%,antiquewhite 70%);
+}
+
+.steps-pic{
+    width: 30px;
+    height: 40px;
+}
+.img{
+    margin-bottom: 4px;
+    width:250px; height:250px;
+}
+.fa-star,.fa-star-half{
+    color: #A87C83;
+    padding: 3% 0;
+}
+.btn{
+    letter-spacing: 2px;
+	color: #875E65;
+    padding: 10px 20px;
+    margin: 4px 2px;
+	border-radius: 4px;
+	border-style:solid;
+}
+#cart_count{
+    text-align: center;
+    padding: 0 0.9rem 0.1rem 0.9rem;
+    border-radius: 3rem;
+}
+.shopping-cart{
+    padding: 3% 0;
+}
+.cart-items + .cart-items{
+    padding: 2% 0;
+}
+.price-details h6{
+    padding: 3% 2%;
+}
